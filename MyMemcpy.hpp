@@ -63,7 +63,7 @@ typedef unsigned int           UInt32;
 
 #define CP_INDEX(idx) {              \
     dstN[idx] = srcN[idx];           \
-}
+} 
 
 #define CP_INDEX_SH(x, shl, shr) {   \
     dstWord   = srcWord SHL shl;     \
